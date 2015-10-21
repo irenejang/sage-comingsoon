@@ -31,7 +31,7 @@ main {
 	margin-bottom: 140px;
 }
 
-p, .hamburger a, h1, .connected h2, form button, footer.main a {
+p, .hamburger a, h1, .connected h2, aside h3, form button, footer.main a {
 	color: white;
 }
 
@@ -144,12 +144,12 @@ form input {
 	padding-left: 1em;
 	border: none;
 	line-height: 50px;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 input::-webkit-input-placeholder {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.25em;
-	padding-left: 1em;
 	font-weight: 300;
 }	
 
@@ -178,6 +178,7 @@ aside i.fa-twitter {
 	display: inline-block;
 	float: left;
 	margin-right: 1em;
+	color: white;
 }
 
 time {
